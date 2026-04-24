@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ophix-auth-oidc"
-version = "2026.04.18.01"
+version = "2026.04.24.01"
 description = "OpenID Connect / Azure AD authentication plugin for Ophix Project Servers"
 readme = "README.md"
 requires-python = ">=3.10"
