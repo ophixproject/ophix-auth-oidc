@@ -28,6 +28,7 @@ where = ["src"]
 
 [tool.setuptools.package-data]
 "ophix_auth_oidc" = [
+    "OPHIX_RELEASE_NOTES.md",
     "locale/**/*",
     "deploy_templates/**/*",
 ]
