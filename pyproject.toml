@@ -12,10 +12,30 @@ license = "MIT"
 authors = [
     { name = "Ophix Project" }
 ]
+keywords = ["django", "ophix", "oidc", "oauth2", "sso", "azure ad", "authentication"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Intended Audience :: System Administrators",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: System :: Systems Administration",
+]
 dependencies = [
-    "ophix-server-base",
+    "ophix-server-base>=2026.05.26.01",
     "mozilla-django-oidc>=4.0",
 ]
+
+[project.urls]
+Homepage = "https://ophix.io"
+Documentation = "https://github.com/ophixproject/ophix-auth-oidc#readme"
+Source = "https://github.com/ophixproject/ophix-auth-oidc"
 
 [project.entry-points."ophix.plugins"]
 ophix_auth_oidc = "ophix_auth_oidc"
