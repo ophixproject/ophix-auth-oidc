@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ophix-auth-oidc"
-version = "2026.06.01.01"
+version = "2026.09.26.01"
 description = "OpenID Connect / Azure AD authentication plugin for Ophix Project Servers"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -14,7 +14,7 @@ authors = [
 ]
 keywords = ["django", "ophix", "oidc", "oauth2", "sso", "azure ad", "authentication"]
 classifiers = [
-    "Development Status :: 4 - Beta",
+    "Development Status :: 3 - Alpha",
     "Environment :: Web Environment",
     "Framework :: Django",
     "Intended Audience :: System Administrators",
