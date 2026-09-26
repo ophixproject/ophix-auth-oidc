@@ -1,5 +1,9 @@
 # Ophix Auth Oidc Release Notes
 
+## 2026.09.26.03
+
+- Verified real compatibility under Python 3.14 (not just added the classifier) as part of the taskserver-release-wave compatibility sweep, and added `Programming Language :: Python :: 3.14` to the package classifiers.
+
 ## 2026.09.26.02
 
 - Added a real unit test suite (`tests/test_backend.py`, 17 tests, all pass)
