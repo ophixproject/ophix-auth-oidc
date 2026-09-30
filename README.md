@@ -1,6 +1,8 @@
 # ophix-auth-oidc
 
-OpenID Connect / Azure AD SSO authentication plugin for [ophix-server-base](https://github.com/ophixproject/ophix-server-base).
+**Sign in to your fleet with the SSO you already have — not one more password to manage.**
+
+Every extra login system is one more account to provision, one more to deprovision when someone leaves, and one more place credentials can go stale. `ophix-auth-oidc` lets any [Ophix](https://ophix.io) server authenticate against your existing OpenID Connect provider — Azure AD included, with a one-variable shortcut — so staff sign in the same way they sign in everywhere else, and group membership alone decides who gets admin access.
 
 Activated automatically when `OIDC_RP_CLIENT_ID` is set in `.env`. Provides
 `OphixOIDCBackend` with group claim merging, user auto-provisioning, and
